@@ -381,7 +381,7 @@ always_comb begin
         move_out = i_alu_reg_0;
     end
     `EXE_MOVN_OP: begin
-        move_out = i_alu_reg_1;
+        move_out = i_alu_reg_0;                                     //same as MOVZ 
     end
     `EXE_MFC0_OP: begin
         if( i_mem_cp0_reg_wen == `WRITE_ENABLE && i_mem_cp0_reg_waddr == i_inst[15:11] ) begin

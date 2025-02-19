@@ -76,7 +76,7 @@
 `define EXE_MFLO        6'b010010             // instruct mflo opcode
 `define EXE_MTLO        6'b010011             // instruct mtlo opcode
 
-`define EXE_SLT         6'b100110             // instruct slt   opcode           
+`define EXE_SLT         6'b101010             // instruct slt   opcode           
 `define EXE_SLTU        6'b101011             // instruct sltu  opcode 
 `define EXE_SLTI        6'b001010             // instruct slti  opcode 
 `define EXE_SLTIU       6'b001011             // instruct sltiu opcode
@@ -172,7 +172,7 @@
 `define EXE_MFLO_OP     8'b00010010           // alu 's 8 bit mflo opcode
 `define EXE_MTLO_OP     8'b00010011           // alu 's 8 bit mtlo opcode
 
-`define EXE_SLT_OP      8'b01100110           // alu 's 8 bit slt   opcode           
+`define EXE_SLT_OP      8'b00101010           // alu 's 8 bit slt   opcode           
 `define EXE_SLTU_OP     8'b00101011           // alu 's 8 bit sltu  opcode 
 `define EXE_SLTI_OP     8'b00001010           // alu 's 8 bit slti  opcode 
 `define EXE_SLTIU_OP    8'b00001011           // alu 's 8 bit sltiu opcode
